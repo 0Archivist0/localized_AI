@@ -19,6 +19,6 @@ the botpressor was used to get botpress in the computer
 the dlamascript was used to get the llama in the machine, after doing so quantizizing it ( like thats a real word) was used to make it smaller,
      - I had to download the 7B model to start with
      
-     Rasascript was another in an attempt to get the open source code of RASA in the machine.. so far only a few things have worked and or went through
+Rasascript was another in an attempt to get the open source code of RASA in the machine.. so far only a few things have worked and or went through
 
 ----------------------------------------------
