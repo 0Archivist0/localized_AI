@@ -46,13 +46,30 @@ fi
 
 echo "Hugging Face Transformers library installed."
 
+# Check if the user is logged in to Hugging Face in the browser
+if curl --head --silent --fail "https://huggingface.co/dashboard/profile" > /dev/null; then
+    echo "You are already logged in to Hugging Face in the browser."
+    echo "Attempting to download LLaMA model weights..."
+    curl -o weights.pkl https://huggingface.co/facebook/llama-7b/resolve/main/weights.pkl
+    echo "LLaMA model weights downloaded successfully."
+else
+    echo "You are not logged in to Hugging Face in the browser."
+
+    # Prompt the user for Hugging Face account credentials
+    read -p "Enter your Hugging Face username: " username
+    read -s -p "Enter your Hugging Face password: " password
+    echo
+
+    # Download LLaMA model weights using the provided credentials
+    echo "Downloading LLaMA model weights..."
+    curl -u "$username:$password" -o weights.pkl https://huggingface.co/facebook/llama-7b/resolve/main/weights.pkl
+
+    echo "LLaMA model weights downloaded successfully."
+fi
+
 # Create a directory for LLaMA and navigate to it.
 mkdir -p ~/llama-7b
 cd ~/llama-7b
-
-# Download the LLaMA model weights.
-echo "Downloading LLaMA model weights..."
-wget https://huggingface.co/facebook/llama-7b/resolve/main/weights.pkl
 
 # Prompt for quantization
 read -p "Do you want to perform quantization (Y/n)? " quantize_response
