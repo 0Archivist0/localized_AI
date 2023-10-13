@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# author: kris Tomplait
+# use this script at your own risk... 
+# who knows what will happen
 set -e
 
 # Function to display an error message and exit
