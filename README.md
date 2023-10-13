@@ -1,6 +1,12 @@
 # Localized-AI
 Personal project in an attempt to make a local AI using AI.. go figure.. but to start,is gonna be an adventure in of itself
+-------------------------------------------------------------------------------------
+### 10-12-23
+added some scripts and also would like to point out this article that the scripts are based on
 
+https://arstechnica.com/information-technology/2023/03/you-can-now-run-a-gpt-3-level-ai-model-on-your-laptop-phone-and-raspberry-pi/
+
+----------------------------------------------------------------------------
 
 ### (Update 8-25-23)
 The local AI Is installed in my laptop, running roughly, but running...
