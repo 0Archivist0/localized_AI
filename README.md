@@ -1,3 +1,9 @@
+------------------------------------------------------------------------------------------------------------------------------
+# | [ As of 11/13/23 ]                                                                                                       |
+|                                                                                                                            |
+### | [ This project is under review.. things In my life has caused me to take into account my projects of late.....]        |
+|                                                                                                                            |
+[____________________________________________________________________________________________________________________________|
 # Localized-AI
 Personal project in an attempt to make a local AI using AI.. go figure.. but to start,is gonna be an adventure in of itself
 -------------------------------------------------------------------------------------
