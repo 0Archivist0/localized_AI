@@ -6,6 +6,8 @@
 [____________________________________________________________________________________________________________________________|
 # Localized-AI
 Personal project in an attempt to make a local AI using AI.. go figure.. but to start,is gonna be an adventure in of itself
+(the scripts that are currently in this Repo were made for attempting to automate the procces..
+
 -------------------------------------------------------------------------------------
 ### 10-12-23
 added some scripts and also would like to point out this article that the scripts are based on
