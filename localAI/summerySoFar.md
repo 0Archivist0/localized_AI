@@ -1,6 +1,3 @@
- 
-Sure, here's a summary of our previous conversation and decisions made for the local conversational AI system project, along with some remarks on the installation script:
-
 # Summary of Local AI Project
 
 ## Decisions Made:
