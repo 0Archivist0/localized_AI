@@ -1,3 +1,8 @@
+# 4-15-24
+I'm still at it... sometimes Life throws some of them curves that lay you out... but you got to shake off the dust, and move forward after picking yourself up... 
+So here we go moving on
+
+
 ------------------------------------------------------------------------------------------------------------------------------
 # | [ As of 11/13/23 ]                                                                                                       |
 |                                                                                                                            |
